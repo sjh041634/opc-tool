@@ -4,8 +4,8 @@ from pathlib import Path
 import numpy as np
 import streamlit as st
 from opc_core import DEFAULT, GEOMETRY, run_cell, figure, save_result, expose, metrics, validate
-st.set_page_config(page_title='교육용 OPC 도구',layout='wide')
-st.title('INV_X1 / NAND2_X4 교육용 OPC 실험')
+st.set_page_config(page_title='OPC 도구',layout='wide')
+st.title('INV_X1 / NAND2_X4 OPC 실험')
 st.warning('내부 경계는 PDF 그림을 판독한 잠정 재구성 좌표입니다. 원 도면과 대조 후 geometry.json에서 수정하세요. 실제 공정 시뮬레이터가 아닙니다.')
 c=DEFAULT.copy()
 with st.sidebar:
