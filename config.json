@@ -1,0 +1,11 @@
+{
+  "dx_nm": 1.75,
+  "sigma_nm": 3.5,
+  "threshold": 0.5,
+  "dose": 1.0,
+  "kernel_sigma_radius": 3.0,
+  "padding_nm": 21.0,
+  "sweeps": 10,
+  "seed": 2026,
+  "search_radius_nm": 7.0
+}
